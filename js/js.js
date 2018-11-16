@@ -1,4 +1,11 @@
-
+/*
+ COMP 4610 91.61 GUI Programming I
+ Erika Spehlmann erika_spehlmann@student.uml.edu
+ Last updated: November 11, 2018
+ Copyright (c) 2018 by Erika Spehlmann. All rights reserved.
+This webpage createds a dynamic Multiplcation Table given four valid inputs using js.
+*/
+  
 //Fundtion for when submit button is pressed
 function myFunction(){
   //check if there is already a table, delete it
