@@ -3,7 +3,6 @@
  Erika Spehlmann erika_spehlmann@student.uml.edu
  Last updated: November 11, 2018
  Copyright (c) 2018 by Erika Spehlmann. All rights reserved.
-
 This webpage createds a dynamic Multiplcation Table given four valid inputs using js.
 -->
 
@@ -12,6 +11,10 @@ This webpage createds a dynamic Multiplcation Table given four valid inputs usin
 <head>
   <title>Homework 6</title>
   <link rel="stylesheet" href="css/style.css" />
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.min.js"></script>
+  <script src="js/jquery.validate.js"></script>
+    <script src="js/js.js"></script>
 </head>
 
 <body>
@@ -19,16 +22,15 @@ This webpage createds a dynamic Multiplcation Table given four valid inputs usin
     Multiplication Table
   </h1>
 <form id = "getNums">
-    Minimum Column Number:<br>
+    First Starting Multiplicand:<br>
     <input type="number" id="one"><br>
-    Maximum Column Number:<br>
+    First Ending Multiplicand:<br>
     <input type="number" id="two"><br>
-    Minimum Row Number:<br>
+    Second Starting Multiplicand:<br>
     <input type="number" id="three"><br>
-    Maximum Row Number:<br>
+    Second Ending Multiplicand:<br>
     <input type="number" id="four"><br>
     <input type="submit" value="Submit" id ="button">
 </form>
-  <script src="js/js.js"></script>
 </body>
 </html>
